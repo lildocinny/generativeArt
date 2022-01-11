@@ -10,24 +10,24 @@
                     align-items: center;
                     min-height: 100vh;
                     margin: 0;
-                    padding: .5rem 1rem;
+                    padding: 0;
                 }
 
            #btn{
               
                background-color: red;
-               height: 100px;
-               width: 100px;
-               position: absolute;
-               right: 100px;
-               border-radius: .5rem;
-               
+               display: inline-block;
+               height: 200px;
+               width: 200px;
+               position: relative;
            }
            p{
                font-size: 30px;
                color: blue;
+               border-radius: .5rem;
                margin: auto;
                resize: none;
+               padding: .5rem 1rem;
             }
            
         </style>
@@ -64,9 +64,12 @@
  console.log(bgColor);
   
     document.body.style.background = bgColor;
-}
+    }
 
 random_bg_color();
 
-</script>
+
+
+
+   </script>
 </html>
