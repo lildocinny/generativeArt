@@ -13,21 +13,34 @@
                     padding: 0;
                 }
 
-           #btn{
-              
-               background-color: #EF3007;
-               display: inline-block;
-               height: 200px;
-               width: 200px;
-               position: absolute;
-               right: 4rem;
+        #btn{     
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        color: black;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
                
            }
+
+        #btn:hover {
+        background-color: black;
+        color: white;
+        }
            p{
                font-size: 30px;
                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                color: #141DE7;
                padding: .5rem 1rem;
+               text-align: center;
             }
            
         </style>
